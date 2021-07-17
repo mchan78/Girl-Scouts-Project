@@ -24,6 +24,7 @@ This section includes information about my design of this interactive map. These
 
 <img width="548" alt="Screen Shot 2021-07-10 at 4 54 09 PM" src="https://user-images.githubusercontent.com/85671225/126018821-7f09fc45-a61c-4f62-ac7a-51baf1f7d2a2.png">
  I decided to create a website with an interactive map in the center to entice the viewers. I then used a green color font for the title due to the matching logo's color. I had intended to create a website with a scroll function for viewers to scroll down and see a description about the Guadalupe River Park Conservancy. I also had red buttons that would display the landmarks of the park and make it easy for the viewers to explore and interact with the park.
+
 #### Version 1.0.0
 
 <img width="1380" alt="Screen Shot 2021-07-10 at 4 59 10 PM" src="https://user-images.githubusercontent.com/85671225/126019013-90c13bf2-730c-4ad8-96d5-9a90f23211f7.png">
