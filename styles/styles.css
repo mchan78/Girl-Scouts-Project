@@ -46,6 +46,7 @@ html {
     margin: 2px 2px;
     height: 40px;
     width: 40px;
+    position: absolute;
 }
 
 .mapButton {
@@ -63,7 +64,31 @@ html {
     font-size: 14px;
 }
 
+#map {
+
+    width: 550px;
+    height: 400px;
+    position: relative;
+    margin: auto;
+    background-image: url("../images/map.png");
+}
+
 .buttonsContainer {
 
     /* margin-bottom: 100px; */
+}
+
+#buttonOne {
+
+    top: 280px;
+    left: 120px;
+
+}
+
+#buttonTwo {
+
+    top: 135px;
+    /* left: 430px; */
+    right: 80px;
+
 }
