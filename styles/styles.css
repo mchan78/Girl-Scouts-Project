@@ -18,11 +18,11 @@ body {
 #grpgLogo {
     width: 104px;
     height: 142px;
-}
-
-#mainMap {
-    width: 550px;
-    height: 400px;
+    margin: 110px ;
+    position: relative;
+    right: 610px;
+    top: 200px
+   
 }
 
 .bodyText {
@@ -56,7 +56,7 @@ html {
 .buttonfirst {
     background-color: #4CAF50;
     border: none;
-    color: black;
+    color:black;
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
@@ -66,29 +66,54 @@ html {
 
 #map {
 
-    width: 550px;
-    height: 400px;
+    width: 700px;
+    height: 550px;
     position: relative;
     margin: auto;
-    background-image: url("../images/map.png");
+    background-image: url("../images/park.PNG");
 }
 
 .buttonsContainer {
 
-    /* margin-bottom: 100px; */
+margin-bottom: 100px; 
 }
 
 #buttonOne {
 
-    top: 280px;
-    left: 120px;
+    top: 270px;
+    left: 160px;
 
 }
 
 #buttonTwo {
 
-    top: 135px;
-    /* left: 430px; */
-    right: 80px;
+    top: 396px;
+    left: 461px;
 
+}
+
+#buttonThree{
+   
+    top: 232px;
+    left: 255px; 
+
+}
+
+#buttonFour{
+   
+    top: 287px;
+    left: 320px; 
+
+}
+
+#buttonFive{
+   
+    top: 110px;
+    left: 190px; 
+
+}
+
+.textAlign{
+    position: relative;
+    right: 368px;
 }
