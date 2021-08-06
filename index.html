@@ -11,43 +11,41 @@
   <link rel="stylesheet" href="styles/navbar.css">
   <link rel="stylesheet" href="styles/styles.css">
 </head>
-
 <body>
 
   <div class="navbar">
-    <a href="#home">Interactive Map</a>
-    <a href="#contact">Contact</a>
+    <a href="map.html">Interactive Map</a>
+    <a href="contact.html">Contact</a>
     <div class="dropdown">
       <button class="dropbtn">About
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-        <a href="#">About Me</a>
-        <a href="#">About Park</a>
-        <a href="#">About Project</a>
+        <a href="aboutme.html">About Me</a>
+        <a href="aboutpark.html">About Park</a>
+        <a href="aboutproject.html">About Project</a>
       </div>
     </div>
   </div>
-
   <h1>Guadalupe River Park Conservancy</h1>
-  <h2>Girl Scouts Gold Award</h2>
-  <!-- <img src="/images/logo.jpg" alt="https://grpg.org/" id="grpgLogo"> -->
   <br>
-  <div class="buttonsContainer">
-
-    <button class="buttonfirst" onclick="alert('You have now begun exploring the park!')">Instructions</button>
-
+<div class="buttonsContainer">
+  <button class="buttonfirst" id="button">Instructions</button>
+  <p id="begin" style="display: none;">This is shown.</p>
+</div>
+<div id="map">
+    <button class="button mapButton" id="buttonOne">1</button>
+    <button class="button mapButton" id="buttonTwo">2</button>
+    <button class="button mapButton" id="buttonThree">3</button>
+    <button class="button mapButton" id="buttonFour">4</button>
+    <button class="button mapButton" id="buttonFive">5</button>
+</div>
+ <br>
+  <img src="/images/Group-2.jpg" alt="https://grpg.org/wp-content/uploads/2020/10/Group-2.jpg" id="grpgLogo">
+  <div class="textAlign">
+  <b>GUADALUPE RIVER PARK CONSERVANCY</b>
+  <p>438 Coleman Avenue  San Jose, CA 95110</p>
   </div>
-  <br>
-  <div id="map">
-
-  <button class="button mapButton" id="buttonOne">1</button>
-  <button class="button mapButton" id="buttonTwo">2</button>
-  <button class="button mapButton">3</button>
-  <button class="button mapButton">4</button>
-  <button class="button mapButton">5</button>
-  </div>
-  <br>
-  
+<script src="script.js"></script>
 </body>
 </html>
