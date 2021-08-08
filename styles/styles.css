@@ -3,8 +3,8 @@
 **/
 
 h1 {
-    color: green;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    color: black !important;
+    font-family: 'Verdana', 'Geneva', 'Tahoma', sans-serif !important;
 }
 
 body {
@@ -18,10 +18,10 @@ body {
 #grpgLogo {
     width: 104px;
     height: 142px;
-    margin: 110px ;
-    position: relative;
-    right: 610px;
-    top: 200px
+    /* margin: 110px ; */
+    /* position: relative; */
+    /* right: 610px; */
+    /* top: 200px */
    
 }
 
@@ -53,10 +53,11 @@ html {
     border-radius: 50%;
 }
 
-.buttonfirst {
+#instructionsButton {
     background-color: #4CAF50;
     border: none;
-    color:black;
+    color:white;
+    font-weight: bolder;
     padding: 10px 40px;
     text-align: center;
     text-decoration: none;
@@ -75,7 +76,7 @@ html {
 
 .buttonsContainer {
 
-margin-bottom: 100px; 
+margin-bottom: 40px; 
 }
 
 #buttonOne {
@@ -114,6 +115,11 @@ margin-bottom: 100px;
 }
 
 .textAlign{
-    position: relative;
-    right: 368px;
+    /* position: relative;
+    right: 368px; */
 }
+
+button:hover {
+    cursor: pointer;
+}
+
